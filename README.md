@@ -2,7 +2,7 @@
 
 Fullstack boilerplate to quickly ship apps
 
-<img width="450px" style="margin: 10px auto" src="https://res.cloudinary.com/metricsjar/image/upload/c_scale,q_auto:good,w_1200/v1575200984/Screenshot_2019-12-01_22.48.48_vkscqz.png" />
+<img width="550px" src="https://res.cloudinary.com/metricsjar/image/upload/c_scale,q_auto:good,w_1200/v1575200984/Screenshot_2019-12-01_22.48.48_vkscqz.png" />
 
 ### Frontend
 
