@@ -8,15 +8,15 @@ Fullstack boilerplate to quickly ship apps
 
 - React
 - Apollo Client
-- GraphQL code generator to generate hooks for Apollo queries and mutations
-- Chakra UI
+- GraphQL code generator to generate hooks and typings for Apollo queries and mutations
+- Accessible UI with [Chakra UI](https://chakra-ui.com/)
 - TypeScript
 
 ### Backend
 
-- Serverless Framework (AWS Lambda)
+- [Serverless Framework](http://serverless.com/) (AWS Lambda)
 - Apollo Server
-- TypeGraphQL
-- TypeORM
+- Code-first GraphQL with [TypeGraphQL](https://typegraphql.ml/)
+- [TypeORM](http://typeorm.io/)
 - jsonwebtoken-based auth
 - Jest integration tests (Coming soon)
