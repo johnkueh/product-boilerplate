@@ -1,0 +1,47 @@
+service: product-boilerplate
+
+provider:
+  tracing:
+    apiGateway: true
+    lambda: true
+  name: aws
+  runtime: nodejs10.x
+  stage: ${opt:stage, env:NODE_ENV, 'development'}
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - "ses:SendEmail"
+        - "ses:SendTemplatedEmail"
+      Resource:
+        - "*"
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-plugin-typescript
+  - serverless-offline
+  # - serverless-domain-manager
+
+# custom:
+#   domains:
+#     production: api.metricsjar.com
+#     staging: api-staging.metricsjar.com
+#     development: localhost:4000
+#     test: localhost:4000
+#   customDomain:
+#     domainName: ${self:custom.domains.${self:provider.stage}}
+
+package:
+  individually: true
+
+functions:
+  graphql:
+    handler: lambdas/graphql.handler
+    events:
+      - http:
+          path: graphql
+          method: post
+          cors: true
+      - http:
+          path: graphql
+          method: get
+          cors: true

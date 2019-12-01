@@ -1,0 +1,29 @@
+query Me {
+  me {
+    id
+    name
+    email
+  }
+}
+
+mutation Login($input: LoginInput!) {
+  login(input: $input) {
+    jwt
+    user {
+      id
+      name
+      email
+    }
+  }
+}
+
+mutation Signup($input: SignupInput!) {
+  signup(input: $input) {
+    jwt
+    user {
+      id
+      name
+      email
+    }
+  }
+}
