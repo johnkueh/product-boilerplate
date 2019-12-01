@@ -8,7 +8,8 @@ Fullstack boilerplate to quickly ship apps
 
 - React
 - Apollo Client
-- GraphQL code generator to generate hooks and typings for Apollo queries and mutations
+- Logged in / Logged out layouts using React.Context
+- [GraphQL code generator](https://graphql-code-generator.com/) to generate hooks and typings for Apollo queries and mutations
 - Accessible UI with [Chakra UI](https://chakra-ui.com/)
 - TypeScript
 
