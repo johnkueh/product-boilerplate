@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@types/factory-girl": "^5.0.2",
-    "apollo-server-lambda": "^2.8.0",
+    "apollo-server-lambda": "^2.14.2",
     "aws-lambda": "^0.1.2",
     "aws-sdk": "^2.504.0",
     "aws-serverless-express": "^3.3.6",
