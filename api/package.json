@@ -33,7 +33,7 @@
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-http": "^2.3.0",
     "source-map-support": "^0.5.12",
-    "type-graphql": "^0.17.5",
+    "type-graphql": "^0.17.6",
     "typeorm": "^0.2.19"
   },
   "devDependencies": {
