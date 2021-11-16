@@ -15,7 +15,7 @@
     "@types/factory-girl": "^5.0.2",
     "apollo-server-lambda": "^2.8.0",
     "aws-lambda": "^0.1.2",
-    "aws-sdk": "^2.504.0",
+    "aws-sdk": "^2.814.0",
     "aws-serverless-express": "^3.3.6",
     "bcryptjs": "^2.4.3",
     "class-transformer": "^0.2.3",
